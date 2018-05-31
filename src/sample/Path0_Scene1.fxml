@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="changeToPath0_Scene2" layoutX="50.0" layoutY="72.0" mnemonicParsing="false" onAction="#changePath0_Scene4" prefHeight="37.0" prefWidth="126.0" text="Follow Friend Inside" />
+            <Button layoutX="445.0" layoutY="72.0" mnemonicParsing="false" onAction="#changeToPath0_Scene2" prefHeight="37.0" prefWidth="126.0" text="Stop Before Entering" />
+         </children>
+      </AnchorPane>
+   </center>
+   <top>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Text fill="WHITE" layoutX="52.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="You and your friend make it to the facility, it looks long abandoned and in disrepair. &quot;Looks creepy.&quot; Your friend states, they begin to walk toward the building. Do you follow?" textAlignment="CENTER" wrappingWidth="496.73828125">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </top>
+</BorderPane>

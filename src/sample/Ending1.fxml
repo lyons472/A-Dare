@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <top>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Text fill="WHITE" layoutX="78.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="You grab your friend and start to dart away from the building, &quot;H-Hey what are you doing!?&quot; They thrash and try to break your grip, but you hold firm, eventually they comply and run with you back to the car you guys came in. One of the guys in the car boasts, &quot;Ha! I knew they couldn't do it! Now where is my twenty bucks?&quot; The driver hands him the money begrudgingly, &quot;This was a waste of time, lets just get everyone home.&quot; The driver sighs, but you are relieved, who knows what could have happened if you went in there." textAlignment="CENTER" wrappingWidth="443.140625">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </top>
+   <bottom>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Text fill="WHITE" layoutX="198.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ending 1: Safe and Sound">
+               <font>
+                  <Font size="18.0" />
+               </font></Text>
+            <Button layoutX="237.0" layoutY="65.0" mnemonicParsing="false" onAction="#changeToPath0_Scene1" prefHeight="37.0" prefWidth="126.0" text="Restart" />
+         </children>
+      </AnchorPane>
+   </bottom>
+</BorderPane>

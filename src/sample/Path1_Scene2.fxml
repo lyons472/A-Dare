@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <top>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Text fill="WHITE" layoutX="53.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" text="You look closely in the room you find that there is a air vent that is open, it looks like it might lead to another part of the building, maybe an exit. You begin to climb in the air vent. &quot;This way? Alright, help me up will ya.&quot; You help your friend up, and shoot a glance at the doorway, you see the figure you saw a moment ago, leaning on the doorway. You go up the airvent as you notice this. You move up the air vent and find a split in the vents. Which way do you go?" textAlignment="CENTER" wrappingWidth="493.7734375">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </top>
+   <bottom>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button layoutX="50.0" layoutY="72.0" mnemonicParsing="false" onAction="#changeToEnding4" prefHeight="37.0" prefWidth="126.0" text="Left" />
+            <Button layoutX="445.0" layoutY="72.0" mnemonicParsing="false" onAction="#changeToEnding5" prefHeight="37.0" prefWidth="126.0" text="Right" />
+         </children></AnchorPane>
+   </bottom>
+</BorderPane>

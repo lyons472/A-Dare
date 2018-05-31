@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <top>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Text fill="WHITE" layoutX="79.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Your friend stops in front of the building, &quot;Awww. Don't tell me your scared are you? Come on! We will only be in there for a minute, then we will be back out, no big deal.&quot; They face the building and continue walking. What do you do?" textAlignment="CENTER" wrappingWidth="442.0">
+               <font>
+                  <Font size="24.0" />
+               </font></Text>
+         </children>
+      </AnchorPane>
+   </top>
+   <bottom>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button layoutX="445.0" layoutY="72.0" mnemonicParsing="false" onAction="#changeToPath0_Scene3" prefHeight="37.0" prefWidth="126.0" text="Stop Them" />
+            <Button layoutX="50.0" layoutY="72.0" mnemonicParsing="false" onAction="#changeToEnding2" prefHeight="37.0" prefWidth="126.0" text="Walk Away" />
+            <Button layoutX="237.0" layoutY="72.0" mnemonicParsing="false" onAction="#changePath0_Scene4" prefHeight="37.0" prefWidth="126.0" text="Follow Them" />
+         </children>
+      </AnchorPane>
+   </bottom>
+</BorderPane>

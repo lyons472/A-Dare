@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <top>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Text fill="WHITE" layoutX="32.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="You enter the Bio Lab, The room itself smells of long dried and aged chemicals and the smell of something long burnt, you both wander around the room for a bit to find a way to exit, you trip on a tile that reveales a hatch. You open the hatch and there is a ladder that goes down into a basement that has an exit sign on a doorway. &quot;There is an exit, they said all we had to do was go in and go out by another exit. This bet is almost over!&quot; You let your friend go down first, they carefully go down the ladder, you begin to start you're way down the ladder, when you are yanked by the shoulders. You yelp and tell your friend to run. Your friend freezes for a moment and darts out the exit. &quot;A pity,&quot; The figure says, &quot;I guess one experiment is better than none at all.&quot; You close you're eyes and wait for everything to fade, but inside you know you did the right thing. " textAlignment="CENTER" wrappingWidth="514.0000022053719">
+               <font>
+                  <Font size="15.0" />
+               </font></Text>
+         </children></AnchorPane>
+   </top>
+   <bottom>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Text fill="WHITE" layoutX="220.0" layoutY="28.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ending 6: Sacrifice">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Button layoutX="237.0" layoutY="53.0" mnemonicParsing="false" onAction="#changeToPath0_Scene1" prefHeight="37.0" prefWidth="126.0" text="Restart" />
+         </children></AnchorPane>
+   </bottom>
+</BorderPane>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <top>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Text fill="WHITE" layoutX="51.0" layoutY="32.0" strokeType="OUTSIDE" strokeWidth="0.0" text="You enter the building, the door creaks open, the terrible sound of metal scaping metal is heard as the door opens. &quot;Hehe... so far so good right?&quot; Your friend wanders over to one of the doors and looks, &quot;Looks like there are signs on the doorways.&quot; Your friends states. You see two doors, one says, &quot;Main Atrium&quot; the other says &quot;Bio Labs&quot; Where do you go?" textAlignment="CENTER" wrappingWidth="498.7265625">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Text>
+         </children></AnchorPane>
+   </top>
+   <bottom>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button layoutX="50.0" layoutY="72.0" mnemonicParsing="false" onAction="#changeToPath1_Scene1" prefHeight="37.0" prefWidth="126.0" text="Main Atrium" />
+            <Button layoutX="445.0" layoutY="72.0" mnemonicParsing="false" onAction="#changeToEnding6" prefHeight="37.0" prefWidth="126.0" text="Bio Labs" />
+            <Button fx:id="changeToXD" layoutX="237.0" layoutY="74.0" mnemonicParsing="false" onAction="#changeToXD" prefHeight="37.0" prefWidth="126.0" text="Leave The Building" />
+         </children>
+      </AnchorPane>
+   </bottom>
+</BorderPane>
